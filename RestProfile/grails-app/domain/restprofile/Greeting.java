@@ -2,19 +2,27 @@ package restprofile;
 
 public class Greeting {
 
-    private long id;
-    private String content;
-
-    public Greeting(long id, String content) {
-        this.id = id;
-        this.content = content;
+    public Greeting(String ad, String soyad) {
+        this.ad = ad;
+        this.soyad = soyad;
     }
 
-    public long getId() {
-        return id;
+    private String ad;
+    private String soyad;
+
+    public String getAd() {
+        return ad;
     }
 
-    public String getContent() {
-        return content;
+    public void setAd(String ad) {
+        this.ad = ad;
+    }
+
+    public String getSoyad() {
+        return soyad;
+    }
+
+    public void setSoyad(String soyad) {
+        this.soyad = soyad;
     }
 }

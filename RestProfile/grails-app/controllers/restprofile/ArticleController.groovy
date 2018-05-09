@@ -66,6 +66,6 @@ class ArticleController {
         render status: NO_CONTENT
     }
     def helloworld(){
-        
+
     }
 }
