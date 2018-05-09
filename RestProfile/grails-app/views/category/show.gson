@@ -1,0 +1,7 @@
+import restprofile.Category
+
+model {
+	Category category
+}
+
+json tmpl.category(category)

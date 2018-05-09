@@ -1,0 +1,8 @@
+import restprofile.Article
+
+model {
+	Iterable<Article> articleList
+}
+
+json tmpl.article(articleList ?: [])
+

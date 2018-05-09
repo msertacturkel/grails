@@ -1,0 +1,7 @@
+import restprofile.Article
+
+model {
+	Article article
+}
+
+json g.render(article, [resolveTemplate: false])
